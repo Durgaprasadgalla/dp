@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    background-color: rgb(233, 205, 242);
+  }
+  *{
+    box-sizing: border-box;
+    
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    max-width: 650px;
+    padding: 50px 30px 50px 20px ;
+    background-color: white;
+    border-radius: 24px;
+    position: absolute;
+    left: 350px;
+    top: 70px;
+  }
+  .card img{
+     max-width: 280px;
+     width: 28vw;
+     height: 300px;
+     object-fit: cover;
+     margin-left: -60px;
+     margin-right: 30px;
+     border-radius: inherit;
+     box-shadow: 0 60px 40px rgb(0 0 0/8%);
+  }
+  .card h3 {
+    color: rgb(0 0 0 / 90%);
+  }
+  .card p{
+    color: rgb(0 0 0 / 70%);
+  }
+  .card button{
+    border: 0;
+    background-color: #5448de;
+    color: #f8f8f8;
+    font-family: inherit;
+    padding: 16px 26px;
+    font-size: 16px;
+    border-radius: 40px;
+  }
+  @media ( width <= 740px){
+    .card{
+      flex-direction: column;
+      text-align: center;
+      margin: 0 40px;
+      padding-left: 50px;
+      padding-right: 50px;
+      width: 100px;
+    }
+  
+  .card img{
+    margin: -100px 0 30px 0;
+    width: 100%;
+    max-width: 1000px;
+
+  }
+}
+</style>
+</script>
+<body>
+  <div class="card">
+    <img src="dp.jpg" />
+    <div>
+      <h2> GALLA DURGA PRASAD</h2>
+      <h3> I Clear My All Subjects At The End Of The B-Tech And After I Placed At Any One MNC Company Above 5LPA. </h3>
+      <h2>Education</h2>
+    <p>&#9830; B-Tech On Kakinada Institute Of Engineering & Technology At Korangi, <br> &#9830; 10+1 & 10+2 On Pragati Juniour Collage At Jagapathi Nagaram, <br> &#9830; 10th On Adarsa Vidyalayam At Dharmavaram.</p>
+    <button> show my profile</button>
+    </div>
+  </div>
+</body>
+</html>
